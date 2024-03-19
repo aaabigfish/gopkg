@@ -1,4 +1,4 @@
-module gitlab.ipcloud.cc/go/gopkg
+module github.com/aaabigfish/gopkg
 
 go 1.20
 
