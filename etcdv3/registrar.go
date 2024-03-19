@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	"gitlab.ipcloud.cc/go/gopkg/log"
+	"github.com/aaabigfish/gopkg/log"
 )
 
 // Registrar registers service instance liveness information to etcd.

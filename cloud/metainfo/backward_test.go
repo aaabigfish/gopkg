@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	"gitlab.ipcloud.cc/go/gopkg/cloud/metainfo"
+	"github.com/aaabigfish/gopkg/cloud/metainfo"
 )
 
 func calls(ctx context.Context, level int, t *testing.T, expect bool) {

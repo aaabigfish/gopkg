@@ -20,7 +20,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"gitlab.ipcloud.cc/go/gopkg/log"
+	"github.com/aaabigfish/gopkg/log"
 )
 
 var workerPool sync.Pool

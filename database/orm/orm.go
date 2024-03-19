@@ -8,7 +8,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"gitlab.ipcloud.cc/go/gopkg/config"
+	"github.com/aaabigfish/gopkg/config"
 )
 
 var (

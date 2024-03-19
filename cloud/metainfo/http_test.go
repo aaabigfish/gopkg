@@ -20,7 +20,7 @@ import (
 	"net/http"
 	"testing"
 
-	"gitlab.ipcloud.cc/go/gopkg/cloud/metainfo"
+	"github.com/aaabigfish/gopkg/cloud/metainfo"
 )
 
 func TestHTTPHeaderToCGIVariable(t *testing.T) {

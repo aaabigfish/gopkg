@@ -1,7 +1,7 @@
 package etcdv3
 
 import (
-	"gitlab.ipcloud.cc/go/gopkg/log"
+	"github.com/aaabigfish/gopkg/log"
 )
 
 // Instancer yields instances stored in a certain etcd keyspace. Any kind of

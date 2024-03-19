@@ -23,7 +23,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"gitlab.ipcloud.cc/go/gopkg/internal/runtimex"
+	"github.com/aaabigfish/gopkg/internal/runtimex"
 )
 
 type Pool struct {

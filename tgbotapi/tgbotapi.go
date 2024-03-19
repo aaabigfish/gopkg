@@ -3,8 +3,8 @@ package tgbotapi
 import (
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
 
-	"gitlab.ipcloud.cc/go/gopkg/config"
-	"gitlab.ipcloud.cc/go/gopkg/log"
+	"github.com/aaabigfish/gopkg/config"
+	"github.com/aaabigfish/gopkg/log"
 )
 
 type BotApi tgbotapi.BotAPI

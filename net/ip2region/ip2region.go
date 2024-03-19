@@ -3,7 +3,7 @@ package ip2region
 import (
 	"strings"
 
-	"gitlab.ipcloud.cc/go/gopkg/net/ip"
+	"github.com/aaabigfish/gopkg/net/ip"
 
 	"github.com/lionsoul2014/ip2region/binding/golang/xdb"
 )

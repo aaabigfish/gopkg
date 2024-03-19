@@ -19,7 +19,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"gitlab.ipcloud.cc/go/gopkg/internal/runtimex"
+	"github.com/aaabigfish/gopkg/internal/runtimex"
 
 	"golang.org/x/sys/cpu"
 )
