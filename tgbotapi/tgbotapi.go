@@ -47,11 +47,17 @@ func (b *Bot) SendMsg(message string) {
 	return
 }
 
-func (b *Bot) SendMarkdownMsg(message string) {
+func (b *Bot) SendMarkdownMsg(message string, toChatId ...int64) {
 	if b.botapi == nil {
 		return
 	}
-	for _, chatId := range b.chatIds {
+	var chatIds []int64
+	if len(toChatId) > 0 {
+		chatIds = toChatId
+	} else {
+		chatIds = b.chatIds
+	}
+	for _, chatId := range chatIds {
 		msg := tgbotapi.NewMessage(chatId, message)
 		msg.ParseMode = tgbotapi.ModeMarkdown
 
