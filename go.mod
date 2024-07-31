@@ -14,6 +14,7 @@ require (
 	github.com/redis/go-redis/v9 v9.1.0
 	github.com/rs/xid v1.5.0
 	github.com/segmentio/kafka-go v0.4.42
+	github.com/shopspring/decimal v1.4.0
 	github.com/spf13/cast v1.5.1
 	github.com/spf13/viper v1.16.0
 	github.com/stretchr/testify v1.8.4
